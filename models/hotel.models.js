@@ -23,8 +23,7 @@ const HotelSchema = new mongoose.Schema({
     reviews : [String],
     website  : String,
     phoneNumber :{
-         type: String
-         ,
+         type: String,
         required: true,
     },
     checkInTime : {
